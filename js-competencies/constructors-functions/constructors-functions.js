@@ -23,11 +23,11 @@ function EgyptianGoddesses(name, oversees, strength, weakness) {
 // Use the variable maatCharacteristics below to create a new Egyptian Goddess - save it to 
 // the variable maat.
 
-var maatCharacteristics = ['Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards']
+let maatCharacteristics = ['Maat', 'Truth and Justice', 'Balancing and Just', 'Exacting in her standards']
 
 //Code here
-
-
+const maat = EgyptianGoddesses(...maatCharacteristics)
+console.log(...maatCharacteristics)
 
 //////////////////PROBLEM 2////////////////////
 
